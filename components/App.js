@@ -108,10 +108,10 @@ class App extends Component {
                   color="#55688A"
                 />
               </View>
-              <Text style={styles.trendingTitle}>Lançamentos</Text>
               <Filme filmes={this.state.filmes} />
+              <Text style={styles.trendingTitle}>Lançamentos</Text>
               <Filme filmes={this.state.trending} />
-              {/*<Genre />*/}
+              <Genre />
             </View>
           </ScrollView>
         </SafeAreaView>
